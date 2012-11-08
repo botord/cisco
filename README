@@ -1,0 +1,19 @@
+Please read me first
+
+A file named vpn_topo.log recorded some connection information between hosts.
+e.g.	
+        a->b,
+        b->c,
+        c->d,
+        c->a,
+        a->b, etc.
+a and b represents a hostname respectively, a->b mean the connection line is
+from a to b.
+
+Problem:
+Find the largest two number of connection of host and print them out.
+Note that the same connection will not be counted more than once. For example,
+a->b, a->b will be counted as "a->b".
+So for the samples above, the right output should be
+c 3
+a 2
