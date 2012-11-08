@@ -1,0 +1,12 @@
+a->b
+a->c
+a->a
+a->d
+b->d
+d->c
+c->a
+b->a
+d->h
+d->e
+d->a
+d->g
